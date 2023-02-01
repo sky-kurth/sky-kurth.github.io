@@ -1,0 +1,132 @@
+#header{
+    padding: 0px var(--margins) 0px var(--margins);
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    /* background-color: #ababab; */
+    margin-bottom: 30px;
+}
+
+#headshot{
+    max-width: 40%;
+    height: auto;
+}
+
+#headerContent{
+    padding-left: 100px;
+}
+
+#headerTitle {
+    background-color: #303C4B;
+    box-shadow: 10px 10px 0px #192F4A;
+}
+
+
+
+#services{
+    padding: 50px var(--margins) 0px var(--margins);
+    background-color: #1F2833;
+    padding-bottom: 50px;
+}
+
+#screens{
+    max-width: 70%;
+    height: auto;
+}
+
+#serviceCards{
+    margin-top: 50px;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+#serviceCard{
+    padding: 20px;
+}
+
+#skills{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill{
+    border: 2px;
+    border-color: var(--textBright);
+    border-style: solid;
+    border-radius: 25px;
+
+    color: var(--textBright);
+    font-size: 20px;
+
+    padding: 0px 20px 0px 20px;
+}
+
+
+#recentWork{
+    padding: 50px var(--margins) 0px var(--margins);
+}
+
+#recentWorkIMG {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+#designWork {
+    padding: 50px var(--margins) 100px var(--margins);
+    background-color:  #1F2833;
+}
+
+
+
+#footer {
+    padding: 0px var(--margins) 0px var(--margins);
+    height: 400px;
+    background: url('/Users/skylark/Documents/GitHub/sky-kurth.github.io/public/img/footerBG.png');
+    background-size: cover;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+#shareIcons{
+    gap: 40px;
+}
+
+.shareIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #44505E;
+}
+
+#linkedin{
+    background: url('/Users/skylark/Documents/GitHub/sky-kurth.github.io/public/img/linkBlue.png');
+    background-size: cover;
+}
+#linkedin:hover{
+    background: url('/Users/skylark/Documents/GitHub/sky-kurth.github.io/public/img/linkHover.png');
+    background-size: cover;
+}
+
+#github{
+    background: url('/Users/skylark/Documents/GitHub/sky-kurth.github.io/public/img/gitBlue.png');
+    background-size: cover;
+}
+#github:hover{
+    background: url('/Users/skylark/Documents/GitHub/sky-kurth.github.io/public/img/gitHover.png');
+    background-size: cover;
+}
+
+#email{
+    background: url('/Users/skylark/Documents/GitHub/sky-kurth.github.io/public/img/mailBlue.png');
+    background-size: cover;
+}
+#email:hover{
+    background: url('/Users/skylark/Documents/GitHub/sky-kurth.github.io/public/img/mailHover.png');
+    background-size: cover;
+}
+

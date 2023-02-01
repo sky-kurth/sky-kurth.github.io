@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+
+body{
+    background-color: #19222C;
+    color: var(--textSoft);
+    
+    font-family: "Helvetica-Light", "Helvetica Light", "Helvetica", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 24px;
+    hyphens: none;
+
+    margin:0;
+    padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+    --textBright: #E5E7EF;
+    --textSoft: #9095AA;
+    --textAccent: #099EE2;
+    --margins: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.col {
+    display: flex;
+    flex-direction: column;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.row {
+    display: flex;
+    flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.txt-bright{
+    color: var(--textBright);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.txt-soft{
+    color: var(--textSoft);
+}
+
+.txt-accent{
+    color: var(--textAccent);
+}
+
+.txt-body{
+    color: var(--textSoft);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.txt-headline{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.txt-subtitle{
+    font-size: 35px;
+    font-weight: medium;
+}
+
+
+.drop-box{
+    background-color: #303C4B;
+    box-shadow: 10px 10px 0px #192F4A;
 }
